@@ -53,7 +53,7 @@ p {
 li :hover,
 #header .navbar-nav .nav-item .nav-link ul,
 li:active {
-  color: var(--text-danger);
+  color: var(--text-danger) !important;
 }
 #header .navbar-toggler:focus {
   box-shadow: none;
@@ -75,7 +75,30 @@ li:active {
 }
 .home .home-banner .home-banner-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  color: var(--text-dark-gray);
+  top: 30%;
+  left: 20%;
+  color: var(--text-black);
+  transform: translate(-110, -50);
+}
+.home .home-banner .home-banner-text h1 {
+  font-size: 6rem;
+}
+.home .carousel-indicators [data-bs-target] {
+  background: var(--bg-danger);
+  width: 5rem;
+}
+.home .carousel-control-next-icon,
+.home .carousel-control-pre-icon {
+  background: transparent;
+}
+
+.home .carousel-control-next-icon {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+  color: var(--bg-danger) !important;
+}
+.home .carousel-control-prev-icon {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+  color: var(--bg-danger) !important;
 }
