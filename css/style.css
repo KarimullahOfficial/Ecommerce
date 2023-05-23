@@ -262,16 +262,8 @@ i :hover {
 .special .countdown-container .countdown-counter,
 li {
   display: inline-block !important;
-  /* font-size: 0.875rem;
-  font-weight: bold;
-  text-align: center;
-  background: var(--bg-white);
-  border-radius: 0.313rem;
-  padding: 2rem 1rem;
-
-  margin: 0.313rem;
-} */
-  padding: 0 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
   background: var(--bg-white);
 }
 .special .countdown-container .countdown-counter,
@@ -295,4 +287,62 @@ span {
   left: 1rem;
   top: 1.188rem;
   z-index: 99;
+}
+.testmonial {
+  padding: 5rem 0 8rem;
+}
+.testmonial .testmonial-wrapper {
+  box-shadow: 0 0 0.563rem 0 rgb(0 0 0 5%);
+  background: var(--bg-white);
+  margin: auto;
+  padding: 1rem 5rem;
+  border: 0.063rem solid var(--bg-light-white);
+  border-radius: 0.625rem;
+}
+.testmonial .testmonial-wrapper img {
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  margin: 1.25rem auto;
+  object-fit: cover;
+  background: var(--bg-light-white);
+  border: 0.063rem var(--bg-light-white);
+}
+.testmonial .testmonial-wrapper span {
+  color: var(--text-gray);
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  display: block;
+}
+.testmonial .testmonial-wrapper p {
+  color: var(--text-gray);
+}
+.testmonial .carousel-indicators [data-bs-target] {
+  background: var(--bg-danger);
+  width: 5rem;
+  height: 0.013rem;
+}
+.testmonial .carousel-control-next-icon,
+.testmonial .carousel-control-pre-icon {
+  background: transparent;
+}
+.testmonial .carousel-control-next-icon {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+  color: var(--bg-danger) !important;
+}
+.testmonial .carousel-control-prev-icon {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+  color: var(--bg-danger) !important;
+}
+.testmonial .carousel-indicators {
+  bottom: -3rem;
+}
+.testmonial .carousel-control-prev {
+  left: -8.75rem;
+}
+.testmonial .carousel-control-next {
+  right: -8.75rem;
 }
