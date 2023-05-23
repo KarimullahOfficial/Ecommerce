@@ -12,12 +12,20 @@
   .home .home-banner .home-banner-text {
     transform: translate(-10%, -20%);
   }
+  .special .countdown-container {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
 }
 @media (max-width: 767px) {
   .home .home-banner1,
   .home .home-banner2 {
     position: 50% center;
     min-height: 450px;
+  }
+  .special .countdown-container {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
   }
   .home .home-banner .home-banner-text {
     text-align: center;
@@ -29,4 +37,19 @@
     top: 20%;
     left: 20%;
   }
+  .special {
+    padding: 4rem 0;
+    margin-top: 3rem;
+  }
+  .special .special-img {
+    padding: 4rem 0;
+    margin-top: 3rem;
+  }
+  .special .special-img span {
+    padding: 4rem 0;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 330px) {
 }

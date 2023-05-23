@@ -240,3 +240,59 @@ i :hover {
   top: 50%;
   left: 50%;
 }
+.special {
+  padding: 6rem 0;
+  background: var(--bg-light-white);
+}
+.special .countdown-container {
+  padding-top: 4.375rem;
+}
+.special .countdown-container p {
+  font-weight: 300;
+  color: var(--text-dark-gray);
+  line-height: 1.875rem;
+}
+.special .countdown-container .countdown-counter {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.875rem;
+}
+.special .countdown-container .countdown-counter,
+li {
+  display: inline-block !important;
+  /* font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
+  background: var(--bg-white);
+  border-radius: 0.313rem;
+  padding: 2rem 1rem;
+
+  margin: 0.313rem;
+} */
+  padding: 0 2rem;
+  background: var(--bg-white);
+}
+.special .countdown-container .countdown-counter,
+span {
+  font-weight: 500;
+}
+.special .countdown-container .countdown-price del {
+  color: var(--text-dark-gray) !important;
+  font-size: 1rem;
+}
+.special .special-img span {
+  background: var(--bg-danger);
+  border-radius: 0.313rem;
+  color: var(--text-white);
+  font-size: 0.813rem;
+  letter-spacing: 0.124rem;
+  line-height: 1.563rem;
+  padding: 0.125rem 0.813rem;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1rem;
+  top: 1.188rem;
+  z-index: 99;
+}
