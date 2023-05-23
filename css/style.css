@@ -185,3 +185,58 @@ a {
   top: 1.118rem;
   z-index: 99;
 }
+.product-list .product-name h3 :hover {
+  color: var(--bg-danger) 0 !important;
+}
+.product-list .product-name .amount {
+  color: var(--text-danger);
+  font-weight: 500;
+}
+.product-list .product-name,
+span,
+i {
+  color: var(--text-dark-gray);
+}
+.product-list .product-name .active span,
+i {
+  color: yellow;
+}
+/* .product-list .product-name span,
+i :hover {
+  color: yellow !important ;
+} */
+.product-list .product-name .Add_to_card {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.product-list .product-name .Add_to_card:hover {
+  color: var(--text-danger) !important;
+}
+.product .up-to {
+  position: relative;
+}
+.product .up-to::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0 0 0 0.4);
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.product .up-to-content h2 {
+  color: var(--text-white) !important ;
+  font-size: 1.625rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
