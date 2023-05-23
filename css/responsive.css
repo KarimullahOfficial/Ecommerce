@@ -1,0 +1,27 @@
+@media (max-width: 1030px) {
+  .home .home-banner1,
+  .home .home-banner2 {
+    position: 65% center;
+    min-height: 550px;
+  }
+  .home .home-banner .home-banner-text {
+    transform: translate(-80%, -50%);
+  }
+}
+@media (max-width: 991px) {
+  .home .home-banner .home-banner-text {
+    transform: translate(-10%, -20%);
+  }
+}
+@media (max-width: 767px) {
+  .home .home-banner1,
+  .home .home-banner2 {
+    position: 50% center;
+    min-height: 450px;
+  }
+  .home .home-banner .home-banner-text {
+    text-align: center;
+    width: 100%;
+    transform: translate(-20%, -20%);
+  }
+}
